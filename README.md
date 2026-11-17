@@ -3,11 +3,11 @@
 Estratégia de turnos em voxel: cada jogador tem um **Mago**, que é o rei, e um exército de bonecos.
 Derrube o Mago inimigo para vencer, sem perder o seu.
 
-![Mapa-Mundi](imagens/16_mapa_mundi.jpg)
+![Mapa-Mundi inteiro](imagens/27_mapa_inteiro.jpg)
 
 ## Baixar e jogar (Windows)
 
-1. Abra a aba **[Releases](../../releases/latest)** e baixe `XequeMago-v0.6-windows.zip`.
+1. Abra a aba **[Releases](../../releases/latest)** e baixe `XequeMago-v0.7-windows.zip`.
 2. Extraia o zip numa pasta.
 3. Rode `XequeMago.exe`. Os dois arquivos (`.exe` e `.pck`) precisam ficar na mesma pasta.
 
@@ -21,27 +21,59 @@ Se o jogo pesar no seu PC, vá em **Opções → Qualidade gráfica** e escolha 
 
 ## Modos
 
-- **Mapa-Mundi**: escolha um lugar da Grande Floresta e batalhe ali, **contra a CPU** ou com **dois jogadores**
+- **Mapa-Mundi**: escolha um dos 48 lugares do mundo e batalhe ali, **contra a CPU** ou com **dois jogadores**
   no mesmo computador, no estilo **Normal** ou **Turno-Mútuo**
 - **Tutorial**: 11 lições curtas, uma para cada parte do jogo
 - **Treino**: um campo com bonecos de pancada para testar os golpes de qualquer boneco
 
 ## Mapa-Mundi
 
-O mundo é uma maquete em miniatura. Por enquanto só a **Grande Floresta** está pintada; o resto do continente
-ainda é gesso com o desenho a lápis e vai ganhando cor a cada versão. Arraste para andar, gire com o botão
-direito e aproxime com a roda. Clicando num lugar, abre o painel com a prévia da arena de luta.
+O mundo é uma maquete em miniatura, e na v0.7 **o continente inteiro está pintado**: 12 regiões e 48 lugares,
+cada um com a sua arena de luta. Arraste para andar, gire com o botão direito e aproxime com a roda. Clicando num
+lugar, abre o painel com a prévia da arena. A câmera flutua por cima do relevo, sem pular a cada morro.
 
-Cada lugar é um local de verdade, com casas, gente andando e coisas para ver:
-
-| Lugar | O que tem |
+| Região | Lugares |
 |---|---|
-| Vila dos Lenhadores | Cabanas de tronco, pátio com pilhas de toras, fogueira e lenhadores rachando lenha |
-| Vila Élfica | Casas de telhado pontudo e casas nas árvores, lampiões verdes e o campo de treino das arqueiras |
-| Ruínas do Golem | Um vale atrás da montanha, só alcançado pelo túnel do rio; uma ruína meio aberta sob uma laje de rocha enorme, onde dorme o primeiro Golem |
-| Lar da Árvore Anciã | A árvore mais velha do mundo, com raízes enormes, vagalumes e o lago |
-| Floresta das Fadas | Sempre primavera: árvores rosadas e círculos de cogumelos que brilham |
-| Estalagem da Encruzilhada | Onde todas as trilhas se cruzam: estalagem, estrebaria, carroças e viajantes |
+| Grande Floresta | Vila dos Lenhadores, Vila Élfica, Ruínas do Golem (atrás da montanha, pelo túnel do rio), Lar da Árvore Anciã, Floresta das Fadas, Estalagem da Encruzilhada |
+| Cidade Alta | A Capital (castelo, ruas de pedra e feira) e os Campos Vastos (trigo, moinhos, igrejas em ruínas e cercados) |
+| Cidade Baixa | A Capital dos Excluídos (becos e névoa), o Lar dos Rebeldes (paliçada e estandartes) e o Grande Coliseu no penhasco sobre o mar |
+| Floresta Cariada | A Floresta Cinza (mata morta, névoa roxa, cristais e bichos cristalizados) e o Castelo do Golem de Gemas |
+| Pico dos Monges | Montanhas Budistas (pilares de pedra ligados só por pontes de corda), o castelo do Pico do Buda na ponta e as Cidades Flutuantes sobre a baía |
+| Ruínas Antigas | Campos Sombrios, a catedral e o templo engolidos pela mata mais fechada do mapa, e as Catacumbas |
+| Deserto | Dunas, Oásis, Cidade do Deserto e a Toca dos Bandidos num cânion; por cima da Caverna, as Minas e a Cidade dos Mineradores |
+| Terreno do Rei | Uma mansão enorme e abandonada, o Labirinto de sebes, a Grande Biblioteca e a Estufa de Vidro, tudo cercado de muralhas altas |
+| Picos Gelados | Tribo da Neve, Floresta Congelada, o Lago Congelado (uma planície de gelo enorme), a Subida das Montanhas (sem caminho marcado) e o Castelo do Golem de Gelo |
+| Área Vulcânica | O Vulcão, a Caverna Misteriosa logo abaixo dele, a Cidade da Forja e a Fortaleza do Golem de Lava, com rios de lava cortando o chão |
+| Pântano | Pântano Claro e Templo do Rei Sapo, Pântano Sombrio e o Lar das Bruxas (só se entra pelo sombrio); as ilhas se ligam por pontes |
+| Baía da Névoa e o fundo do mar | Lar dos Ribeirinhos (palafitas na névoa), Cemitério de Navios e, debaixo do mar, a Cidade Afundada, o Reino de Atlântida, a Vila das Sereias e o Palácio da Medusa |
+
+![Capital](imagens/28_capital.jpg)
+
+![Cidade Baixa e o Grande Coliseu](imagens/29_cidade_baixa.jpg)
+
+![Floresta Cariada](imagens/30_floresta_cariada.jpg)
+
+![Pico dos Monges](imagens/31_pico_dos_monges.jpg)
+
+![Ruínas Antigas](imagens/32_ruinas_antigas.jpg)
+
+![Deserto](imagens/33_deserto.jpg)
+
+![Terreno do Rei](imagens/34_terreno_do_rei.jpg)
+
+![Picos Gelados](imagens/35_picos_gelados.jpg)
+
+![Área Vulcânica](imagens/36_area_vulcanica.jpg)
+
+![Pântano](imagens/37_pantano.jpg)
+
+![Baía da Névoa](imagens/38_baia_da_nevoa.jpg)
+
+![Debaixo do mar](imagens/39_debaixo_do_mar.jpg)
+
+### A Grande Floresta
+
+A primeira região pintada, com casas, gente andando e coisas para ver:
 
 ![Vila dos Lenhadores](imagens/17_vila_dos_lenhadores.jpg)
 
@@ -65,9 +97,14 @@ Menires, Poço dos Desejos, Estátua Esquecida, cabanas e um acampamento) que v�
 Como num jogo de monstrinhos, o lugar onde se anda e o lugar onde se luta são diferentes: a arena é uma "média" do
 lugar, sem casas nem gente. Na dos lenhadores há tocos e uma tora atravessada no meio da pista; na ruína, lajes,
 colunas partidas e um muro caído; na Árvore Anciã, raízes enormes; nas fadas, cogumelos gigantes; na
-encruzilhada, a estrada de terra cruzando o campo e caixotes caídos de uma carroça.
+encruzilhada, a estrada de terra cruzando o campo e caixotes caídos de uma carroça. Cada região tem os seus
+obstáculos: estantes na biblioteca, sebes no labirinto, blocos de gelo, bigornas e rochas de lava, caldeirões
+das bruxas, destroços de navio, corais e as estátuas petrificadas da Medusa. Nas arenas de lava e de água funda,
+as poças não dão passagem.
 
-![As seis arenas](imagens/25_arenas.jpg)
+![Algumas das 48 arenas](imagens/40_arenas_do_mundo.jpg)
+
+![As seis arenas da floresta](imagens/25_arenas.jpg)
 
 ![Painel do lugar](imagens/24_painel_turno_mutuo.jpg)
 
@@ -190,10 +227,11 @@ e, se durar mais de uma rodada, um aviso no canto mostra quantas rodadas faltam:
 
 | Arenas | Eventos |
 |---|---|
-| Grande Floresta (Lenhadores, Élfica, Árvore Anciã, Fadas, Encruzilhada) | Névoa Fina, Raízes Vivas, Chuva de Verão |
-| Ruínas do Golem | Desabamento, Cristal Ressonante, Escuridão |
-
-Os mapas do deserto, do pântano e da neve voltam quando essas regiões forem pintadas no Mapa-Mundi.
+| Floresta, Capital, Campos Vastos, Mansão e Labirinto do Rei | Névoa Fina, Raízes Vivas, Chuva de Verão |
+| Ruínas, castelos, catacumbas, minas, biblioteca e cavernas | Desabamento, Cristal Ressonante, Escuridão |
+| Deserto, Rebeldes, Coliseu e Área Vulcânica | Tempestade de Areia, Sol a Pino, Areia Movediça |
+| Pântano, Cidade Baixa, Baía da Névoa e o fundo do mar | Maré Cheia, Névoa do Brejo, Esporos |
+| Picos Gelados e Pico dos Monges | Nevasca, Geada, Avalanche |
 
 ![Evento: névoa](imagens/06_evento_nevoa.png)
 
@@ -214,5 +252,5 @@ bugs e ideias. Prints ajudam muito.
 
 ---
 
-Versão 0.6 (protótipo). Feito com Godot 4.5. Este repositório traz apenas o jogo para download;
+Versão 0.7 (protótipo). Feito com Godot 4.5. Este repositório traz apenas o jogo para download;
 o código-fonte não está público.
