@@ -1,6 +1,6 @@
-# SummonWrights
+# Herdeiros de Thalor
 
-*(antes chamado Xeque-Mago)*
+*(antes chamado SummonWrights e Xeque-Mago)*
 
 Estratégia de turnos em voxel. Você é um **Invocante**, um mago que firma **contratos** com criaturas,
 e elas batalham por você. Cada jogador tem o seu Mago, que é o rei, e um exército de criaturas contratadas.
@@ -13,7 +13,7 @@ Derrube o Mago inimigo para vencer, sem perder o seu.
 1. Abra a aba **[Releases](../../releases/latest)** e baixe `XequeMago-v0.7-windows.zip`.
 2. Extraia o zip numa pasta.
 3. Rode `XequeMago.exe`. Os dois arquivos (`.exe` e `.pck`) precisam ficar na mesma pasta.
-   A versão v0.7 ainda tem os arquivos com o nome antigo; as próximas versões já saem como SummonWrights.
+   A versão v0.7 ainda tem os arquivos com o nome antigo; as próximas versões já saem como Herdeiros de Thalor.
 
 Se o Windows mostrar "O Windows protegeu o computador", clique em **Mais informações → Executar assim mesmo**
 (o jogo ainda não é assinado digitalmente).
