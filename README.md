@@ -10,10 +10,9 @@ Derrube o Mago inimigo para vencer, sem perder o seu.
 
 ## Baixar e jogar (Windows)
 
-1. Abra a aba **[Releases](../../releases/latest)** e baixe `XequeMago-v0.7-windows.zip`.
+1. Abra a aba **[Releases](../../releases/latest)** e baixe `HerdeirosDeThalor-v0.8-windows.zip`.
 2. Extraia o zip numa pasta.
-3. Rode `XequeMago.exe`. Os dois arquivos (`.exe` e `.pck`) precisam ficar na mesma pasta.
-   A versão v0.7 ainda tem os arquivos com o nome antigo; as próximas versões já saem como Herdeiros de Thalor.
+3. Rode `HerdeirosDeThalor.exe`. Os dois arquivos (`.exe` e `.pck`) precisam ficar na mesma pasta.
 
 Se o Windows mostrar "O Windows protegeu o computador", clique em **Mais informações → Executar assim mesmo**
 (o jogo ainda não é assinado digitalmente).
@@ -23,8 +22,47 @@ Se o jogo pesar no seu PC, vá em **Opções → Qualidade gráfica** e escolha 
 
 ![Menu](imagens/01_menu.png)
 
+## Novo na v0.8: Modo de Teste — Arena Livre (queremos o seu feedback!)
+
+Estamos testando um jeito novo de lutar, **sem casas no chão**. No menu principal, clique em
+**Modo de Teste: Arena Livre**:
+
+1. **Monte seu time**: até **6 figuras**, escolhidas entre **todos os 13 personagens** do jogo (pode repetir).
+   O time da CPU é sorteado; o botão *Sortear outro time* troca.
+2. Na batalha, clique numa figura sua (ou na ficha dela, no alto à esquerda) para escolher quem age.
+   Cada figura pode **andar** e usar **um golpe** por turno.
+3. **Andar**: aparece um círculo azul; clique em qualquer ponto dentro dele.
+4. **Golpes**: a área aparece no chão (cone à frente, círculo em volta ou um círculo que você mira longe,
+   nas magias) e os inimigos dentro dela ficam marcados de vermelho. Clique para confirmar; botão direito cancela.
+5. Câmera: arraste com o botão esquerdo para girar, roda do mouse para aproximar, WASD para andar.
+
+O **Minotauro** já tem esqueleto e animações de verdade (andar, Chifrada, Pisão e os golpes de machado:
+Balanço, Giro e Golpe Preciso). As outras figuras ainda se movem como peças inteiras.
+O jogo também ganhou **sons** (passos, golpes, magias, menu e o fundo da floresta); o volume fica em **Opções → Volume do som**.
+
+![Montar o time](imagens/32_arena_livre_time.jpg)
+
+![Mirando o Balanço de Machado](imagens/33_arena_livre_machado.jpg)
+
+![Seis contra seis](imagens/34_arena_livre_6x6.jpg)
+
+![Golpe Preciso do Minotauro](imagens/35_minotauro_golpe_preciso.jpg)
+
+### Como dar feedback
+
+Abra uma **[Issue](../../issues/new)** (precisa de conta no GitHub) ou mande direto para quem te passou o jogo. Ajuda muito saber:
+
+- A arena livre é **mais divertida** que o tabuleiro de casas? Por quê?
+- Algum personagem ficou **forte ou fraco demais**?
+- Algum golpe ficou **confuso** (não deu para entender a área ou quem ia ser atingido)?
+- Os **sons** estão bons? Algum incomoda?
+- O jogo **travou ou pesou** em algum momento? (diga o seu PC/placa de vídeo)
+
+O equilíbrio ainda não foi ajustado e não há dado D20 neste modo: é um teste para sentir o jogo.
+
 ## Modos
 
+- **Modo de Teste: Arena Livre** (novo): arena aberta, movimento por raio, golpes em área e times de até 6
 - **Mapa-Mundi**: escolha um dos 48 lugares do mundo e batalhe ali, **contra a CPU** ou com **dois jogadores**
   no mesmo computador, no estilo **Normal** ou **Turno-Mútuo**
 - **Tutorial**: 11 lições curtas, uma para cada parte do jogo
